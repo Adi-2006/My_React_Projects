@@ -1,0 +1,241 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+    width: 100%;
+    height: 100%; 
+}
+.corefeaturesection{
+    background-size: 100% 100%;
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+}
+.companyList{
+    animation:10s infinite linear moveCompany;
+}
+.ctasection{
+    background-size: 100% 100%;
+}
+
+@keyframes moveCompany {
+    0%{
+        top:0;
+    }
+
+    100%{
+        top:-80%
+    }
+}
+
+@media screen and (min-width:2000px) {
+    .mardiv{
+        margin-top: 200px;
+    }
+}
+@media screen and (max-width:1280px){
+    .testsection{
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .tobigscreen{
+        display: none;
+    }
+    .toshowphone{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+        gap: 0.5rem;
+    }
+    .fake{
+        margin-top: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5rem;
+        
+    }
+}
+@media screen and (max-width:1123px) {
+    .navUlmq{
+        display: none;
+    }
+    .imgblack{
+        width: 500px;
+    }
+    .footermaindiv{
+        flex-direction: column;
+    }
+    .onefoot{
+        width: auto;
+    }
+    .footsectionlinks{
+       width: 90%;
+       gap: 5px;
+    }
+    .imgwhite img{
+        width: 400px;
+    }
+   
+}
+@media screen and (max-width:1024px) {
+
+    .sign_up{
+        display: none;
+    }
+    .india_flag{
+        display: none;
+    }
+    .sectionTwodiv{
+        flex-direction: column;
+        padding-top: 5rem;
+        width: 90%;
+    }
+    .dottedfirst{
+        display: none;
+    }
+    .griddiv{
+        grid-template-columns: repeat(2,1fr);
+
+    }
+    .imgblack{
+        width: 450px;
+    }
+    .checkoutdiv{
+        flex-direction: column;
+        gap:1rem;
+    }
+    .corefeaturesection{
+        background-size: 118% 100%;
+       
+    }
+    .lappyimg{
+        display: none;
+    }
+    .ctasection{
+        background-size: 120% 100%;
+    }
+   
+    
+}
+@media screen and (max-width:900px) {
+    .imgblack{
+        width: 350px;
+    }
+   .contfeaturewhite{
+    flex-direction: column;
+    gap: 3rem;
+   }
+   .leftimgwhite{
+    width: auto;
+    align-items: center;
+   }
+   .leftimgwhite h3{
+    margin: auto;
+   }
+   .leftimgwhite ul{
+  margin: auto;
+   }
+}
+@media screen and (max-width:850px) {
+    .imgblack{
+        display: none;
+    }
+    .blacksection{
+        justify-content: center;
+        align-items: center;
+    }
+    .blacksectionleft{
+        gap: 2rem;
+    }
+    
+}
+@media screen and (max-width:767px) {
+    .griddiv{
+        grid-template-columns: repeat(1,1fr);
+
+    }
+    .dottedsecond{
+        display: none;
+    }
+    .itemgridone{
+        text-align: center;
+        margin: auto;
+    }
+    .corediv{
+        padding-top: 8rem;
+    }
+    .scrollsection{
+        flex-direction: column;
+    }
+    .scrollleft{
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+        width: auto;
+    }
+    .sidewla{
+        width: 40px;
+        height: 40px;
+    }
+    .sidewla img{
+        width: 15px;
+        height: 15px;
+    }
+    .testphoto{
+        width: 250px;
+        height: 250px;
+    }
+    .footsectionlinks{
+        flex-wrap: wrap;
+        align-items: center;
+        gap:5rem;
+        justify-content: center;
+    }
+   .linksection{
+    width: 242px;
+   }
+   .ctasection{
+    background-size: 180% 100%;
+}
+}
+@media screen and (max-width:550px) {
+    .leftimgwhite h3{
+        font-size: 18px;
+        text-align: center;
+        line-height: 30px;
+    }
+    .featuresectionblack{
+        padding-bottom: 200px;
+    }
+    .imgcontscroll{
+        width: 400px;
+        height: 400px;
+    }
+  
+}
+@media screen and (max-width:450px){
+    .leftimgwhite h3{
+        /* font-size: 14px; */
+        text-align: center;
+        width: 300px;
+    }
+    .imgwhite{
+        display: none;
+    }
+    .imgcontscroll{
+        width: 300px;
+        height: 300px;
+    }
+    .sidewla{
+       display: none;
+    }
+    .blackbutton{
+        flex-direction: column;
+    }
+    /* .blackbutton button{
+        width: auto;
+    } */
+}
+
+
